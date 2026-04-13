@@ -1,0 +1,56 @@
+PS D:\CS780\CS780-OBELIX-main\CS780-OBELIX-main> python train_d3qn_per.py --episodes 1000 --resume weights_d3qn_resume.pth          
+Device: cpu
+Resumed from weights_d3qn_resume.pth
+
+Training D3QN-PER | episodes=1000 | walls=OFF | difficulty=0
+======================================================================
+Ep    25/1000 | steps=   25000 | mean_r= -10220.0 | success=  0.0% | loss=0.5829 | eps=0.955 | beta=0.430
+  ✓ New best (mean_r=-10220.0) → weights_d3qn.pth
+Ep    50/1000 | steps=   48715 | mean_r= -13097.1 | success= 12.0% | loss=0.5512 | eps=0.912 | beta=0.458
+Ep    75/1000 | steps=   72741 | mean_r=  -9462.6 | success= 12.0% | loss=0.4417 | eps=0.869 | beta=0.487
+  ✓ New best (mean_r=-9462.6) → weights_d3qn.pth
+Ep   100/1000 | steps=   94462 | mean_r=  -5839.9 | success= 28.0% | loss=0.3466 | eps=0.830 | beta=0.513
+  ✓ New best (mean_r=-5839.9) → weights_d3qn.pth
+Ep   125/1000 | steps=  116910 | mean_r=  -3246.4 | success= 28.0% | loss=0.2639 | eps=0.790 | beta=0.540
+  ✓ New best (mean_r=-3246.4) → weights_d3qn.pth
+Ep   150/1000 | steps=  136942 | mean_r=  -9644.6 | success= 40.0% | loss=0.2143 | eps=0.754 | beta=0.564
+Ep   175/1000 | steps=  159030 | mean_r=  -7178.3 | success= 24.0% | loss=0.1728 | eps=0.714 | beta=0.591
+Ep   200/1000 | steps=  178491 | mean_r=  -6340.2 | success= 52.0% | loss=0.1410 | eps=0.679 | beta=0.614
+Ep   225/1000 | steps=  198807 | mean_r=  -1830.4 | success= 48.0% | loss=0.1175 | eps=0.642 | beta=0.639
+  ✓ New best (mean_r=-1830.4) → weights_d3qn.pth
+Ep   250/1000 | steps=  218716 | mean_r=  -5287.8 | success= 40.0% | loss=0.0891 | eps=0.606 | beta=0.662
+Ep   275/1000 | steps=  238991 | mean_r=  -1301.6 | success= 48.0% | loss=0.0659 | eps=0.570 | beta=0.687
+  ✓ New best (mean_r=-1301.6) → weights_d3qn.pth
+Ep   300/1000 | steps=  260289 | mean_r=  -7657.1 | success= 44.0% | loss=0.0507 | eps=0.531 | beta=0.712
+Ep   325/1000 | steps=  281821 | mean_r=  -5986.7 | success= 36.0% | loss=0.0392 | eps=0.493 | beta=0.738
+Ep   350/1000 | steps=  302553 | mean_r=  -5825.3 | success= 44.0% | loss=0.0337 | eps=0.455 | beta=0.763
+Ep   375/1000 | steps=  320610 | mean_r=  -7092.6 | success= 52.0% | loss=0.0286 | eps=0.423 | beta=0.785
+Ep   400/1000 | steps=  338497 | mean_r=  -3803.8 | success= 60.0% | loss=0.0226 | eps=0.391 | beta=0.806
+Ep   425/1000 | steps=  357836 | mean_r=  -8123.4 | success= 44.0% | loss=0.0182 | eps=0.356 | beta=0.829
+Ep   450/1000 | steps=  373489 | mean_r=  -4972.0 | success= 60.0% | loss=0.0148 | eps=0.328 | beta=0.848
+Ep   475/1000 | steps=  390639 | mean_r=  -4162.1 | success= 64.0% | loss=0.0128 | eps=0.297 | beta=0.869
+Ep   500/1000 | steps=  407532 | mean_r=  -3933.4 | success= 56.0% | loss=0.0107 | eps=0.266 | beta=0.889
+Ep   525/1000 | steps=  425714 | mean_r= -11443.8 | success= 52.0% | loss=0.0090 | eps=0.234 | beta=0.911
+Ep   550/1000 | steps=  443709 | mean_r= -10933.4 | success= 52.0% | loss=0.0079 | eps=0.201 | beta=0.932
+Ep   575/1000 | steps=  458720 | mean_r=  -5961.8 | success= 60.0% | loss=0.0065 | eps=0.174 | beta=0.950
+Ep   600/1000 | steps=  473603 | mean_r= -12291.9 | success= 60.0% | loss=0.0053 | eps=0.148 | beta=0.968
+Ep   625/1000 | steps=  488832 | mean_r=  -7679.2 | success= 64.0% | loss=0.0045 | eps=0.120 | beta=0.987
+Ep   650/1000 | steps=  498761 | mean_r=  -1719.4 | success= 92.0% | loss=0.0038 | eps=0.102 | beta=0.999
+Ep   675/1000 | steps=  513125 | mean_r= -11535.4 | success= 60.0% | loss=0.0037 | eps=0.100 | beta=1.000
+Ep   700/1000 | steps=  527416 | mean_r= -14920.1 | success= 60.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep   725/1000 | steps=  540131 | mean_r=  -9165.5 | success= 60.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep   750/1000 | steps=  554520 | mean_r=  -7073.6 | success= 60.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep   775/1000 | steps=  568102 | mean_r=  -8164.9 | success= 64.0% | loss=0.0041 | eps=0.100 | beta=1.000
+Ep   800/1000 | steps=  580068 | mean_r= -11076.2 | success= 64.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep   825/1000 | steps=  591165 | mean_r=  -5183.8 | success= 72.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep   850/1000 | steps=  607049 | mean_r= -12394.6 | success= 44.0% | loss=0.0041 | eps=0.100 | beta=1.000
+Ep   875/1000 | steps=  620088 | mean_r=  -8538.3 | success= 64.0% | loss=0.0041 | eps=0.100 | beta=1.000
+Ep   900/1000 | steps=  634538 | mean_r=  -7039.7 | success= 52.0% | loss=0.0039 | eps=0.100 | beta=1.000
+Ep   925/1000 | steps=  646499 | mean_r=  -6617.5 | success= 68.0% | loss=0.0039 | eps=0.100 | beta=1.000
+Ep   950/1000 | steps=  660245 | mean_r= -10173.4 | success= 56.0% | loss=0.0038 | eps=0.100 | beta=1.000
+Ep   975/1000 | steps=  671933 | mean_r=  -8238.0 | success= 68.0% | loss=0.0040 | eps=0.100 | beta=1.000
+Ep  1000/1000 | steps=  687831 | mean_r=  -7729.6 | success= 52.0% | loss=0.0040 | eps=0.100 | beta=1.000
+
+Training complete.
+  Best model  (mean_r=-1301.6) → weights_d3qn.pth
+  Final model → weights_d3qn_final.pth

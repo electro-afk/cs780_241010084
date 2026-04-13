@@ -1,0 +1,507 @@
+PS D:\IITK SEM 4\CS780-OBELIX-main> python train_d3qn_per.py --episodes 10000 --resume weights_d3qn_final.pth
+Device: cpu
+Resumed from weights_d3qn_final.pth
+
+Training D3QN-PER | episodes=10000 | walls=OFF | difficulty=3
+======================================================================
+Ep    25/10000 | steps=   23693 | mean_r= -31568.6 | success= 24.0% | loss=1.5088 | eps=0.997 | beta=0.402 | stuck=  82.0
+  ✓ New best (ema_r=-31568.6) → weights_d3qn.pth
+Ep    50/10000 | steps=   47649 | mean_r= -26424.3 | success= 12.0% | loss=0.6493 | eps=0.995 | beta=0.404 | stuck=  55.8
+  ✓ New best (ema_r=-31054.2) → weights_d3qn.pth
+Ep    75/10000 | steps=   70324 | mean_r= -26189.9 | success= 20.0% | loss=0.3604 | eps=0.992 | beta=0.405 | stuck=  58.8
+  ✓ New best (ema_r=-30567.8) → weights_d3qn.pth
+Ep   100/10000 | steps=   93853 | mean_r= -25491.2 | success= 16.0% | loss=0.3549 | eps=0.989 | beta=0.407 | stuck=  51.3
+  ✓ New best (ema_r=-30060.1) → weights_d3qn.pth
+Ep   125/10000 | steps=  115637 | mean_r= -26138.5 | success= 28.0% | loss=0.3744 | eps=0.987 | beta=0.409 | stuck=  59.4
+  ✓ New best (ema_r=-29668.0) → weights_d3qn.pth
+Ep   150/10000 | steps=  139064 | mean_r= -26308.7 | success= 12.0% | loss=0.3960 | eps=0.984 | beta=0.410 | stuck=  54.1
+  ✓ New best (ema_r=-29332.0) → weights_d3qn.pth
+Ep   175/10000 | steps=  163228 | mean_r= -29772.9 | success= 12.0% | loss=0.4082 | eps=0.982 | beta=0.412 | stuck=  68.9
+Ep   200/10000 | steps=  186586 | mean_r= -24213.2 | success= 12.0% | loss=0.4105 | eps=0.979 | beta=0.414 | stuck=  44.4
+  ✓ New best (ema_r=-28859.8) → weights_d3qn.pth
+Ep   225/10000 | steps=  210447 | mean_r= -25670.6 | success= 16.0% | loss=0.3925 | eps=0.976 | beta=0.416 | stuck=  49.6
+  ✓ New best (ema_r=-28540.9) → weights_d3qn.pth
+Ep   250/10000 | steps=  234087 | mean_r= -27075.8 | success= 12.0% | loss=0.3835 | eps=0.974 | beta=0.418 | stuck=  58.3
+  ✓ New best (ema_r=-28394.4) → weights_d3qn.pth
+Ep   275/10000 | steps=  257184 | mean_r= -27949.6 | success= 12.0% | loss=0.3713 | eps=0.971 | beta=0.419 | stuck=  63.4
+  ✓ New best (ema_r=-28349.9) → weights_d3qn.pth
+Ep   300/10000 | steps=  279428 | mean_r= -21019.2 | success= 24.0% | loss=0.3521 | eps=0.969 | beta=0.421 | stuck=  35.8
+  ✓ New best (ema_r=-27616.8) → weights_d3qn.pth
+Ep   325/10000 | steps=  299878 | mean_r= -23728.3 | success= 28.0% | loss=0.3395 | eps=0.966 | beta=0.422 | stuck=  55.8
+  ✓ New best (ema_r=-27228.0) → weights_d3qn.pth
+Ep   350/10000 | steps=  322782 | mean_r= -24203.5 | success= 20.0% | loss=0.3223 | eps=0.964 | beta=0.424 | stuck=  47.4
+  ✓ New best (ema_r=-26925.5) → weights_d3qn.pth
+Ep   375/10000 | steps=  344229 | mean_r= -20184.7 | success= 28.0% | loss=0.3105 | eps=0.961 | beta=0.426 | stuck=  33.5
+  ✓ New best (ema_r=-26251.5) → weights_d3qn.pth
+Ep   400/10000 | steps=  368207 | mean_r= -24755.2 | success= 12.0% | loss=0.2825 | eps=0.959 | beta=0.428 | stuck=  46.2
+  ✓ New best (ema_r=-26101.8) → weights_d3qn.pth
+Ep   425/10000 | steps=  392079 | mean_r= -27187.2 | success= 12.0% | loss=0.2757 | eps=0.956 | beta=0.429 | stuck=  58.9
+Ep   450/10000 | steps=  414970 | mean_r= -27409.4 | success= 24.0% | loss=0.2640 | eps=0.953 | beta=0.431 | stuck=  64.3
+Ep   475/10000 | steps=  437850 | mean_r= -25802.0 | success= 20.0% | loss=0.2601 | eps=0.951 | beta=0.433 | stuck=  54.4
+Ep   500/10000 | steps=  462450 | mean_r= -25595.2 | success=  4.0% | loss=0.2464 | eps=0.948 | beta=0.435 | stuck=  47.8
+Ep   525/10000 | steps=  483302 | mean_r= -21129.5 | success= 32.0% | loss=0.2431 | eps=0.946 | beta=0.436 | stuck=  41.6
+  ✓ New best (ema_r=-25701.2) → weights_d3qn.pth
+Ep   550/10000 | steps=  508097 | mean_r= -25316.0 | success=  8.0% | loss=0.2393 | eps=0.943 | beta=0.438 | stuck=  47.0
+  ✓ New best (ema_r=-25662.7) → weights_d3qn.pth
+Ep   575/10000 | steps=  531621 | mean_r= -23156.6 | success= 12.0% | loss=0.2349 | eps=0.940 | beta=0.440 | stuck=  40.5
+  ✓ New best (ema_r=-25412.1) → weights_d3qn.pth
+Ep   600/10000 | steps=  556006 | mean_r= -23105.8 | success=  4.0% | loss=0.2245 | eps=0.937 | beta=0.442 | stuck=  37.5
+  ✓ New best (ema_r=-25181.5) → weights_d3qn.pth
+Ep   625/10000 | steps=  579197 | mean_r= -21209.4 | success= 12.0% | loss=0.2246 | eps=0.935 | beta=0.443 | stuck=  33.2
+  ✓ New best (ema_r=-24784.3) → weights_d3qn.pth
+Ep   650/10000 | steps=  602364 | mean_r= -25544.2 | success= 20.0% | loss=0.2247 | eps=0.932 | beta=0.445 | stuck=  54.3
+Ep   675/10000 | steps=  624722 | mean_r= -19723.2 | success= 28.0% | loss=0.2141 | eps=0.930 | beta=0.447 | stuck=  32.0
+  ✓ New best (ema_r=-24346.6) → weights_d3qn.pth
+Ep   700/10000 | steps=  648169 | mean_r= -26861.7 | success= 20.0% | loss=0.2207 | eps=0.927 | beta=0.449 | stuck=  58.4
+Ep   725/10000 | steps=  668055 | mean_r= -17883.2 | success= 40.0% | loss=0.2175 | eps=0.925 | beta=0.450 | stuck=  29.2
+  ✓ New best (ema_r=-23926.6) → weights_d3qn.pth
+Ep   750/10000 | steps=  688082 | mean_r= -15380.8 | success= 40.0% | loss=0.2182 | eps=0.923 | beta=0.452 | stuck=  19.3
+  ✓ New best (ema_r=-23072.0) → weights_d3qn.pth
+Ep   775/10000 | steps=  712097 | mean_r= -21944.7 | success= 16.0% | loss=0.2155 | eps=0.920 | beta=0.453 | stuck=  34.0
+  ✓ New best (ema_r=-22959.3) → weights_d3qn.pth
+Ep   800/10000 | steps=  735167 | mean_r= -21783.4 | success= 20.0% | loss=0.2155 | eps=0.917 | beta=0.455 | stuck=  35.9
+  ✓ New best (ema_r=-22841.7) → weights_d3qn.pth
+Ep   825/10000 | steps=  758476 | mean_r= -23295.4 | success= 20.0% | loss=0.2131 | eps=0.915 | beta=0.457 | stuck=  42.6
+Ep   850/10000 | steps=  778758 | mean_r= -16443.0 | success= 44.0% | loss=0.2092 | eps=0.912 | beta=0.458 | stuck=  24.3
+  ✓ New best (ema_r=-22242.7) → weights_d3qn.pth
+Ep   875/10000 | steps=  799467 | mean_r= -18204.1 | success= 36.0% | loss=0.2092 | eps=0.910 | beta=0.460 | stuck=  28.2
+  ✓ New best (ema_r=-21838.8) → weights_d3qn.pth
+Ep   900/10000 | steps=  819453 | mean_r= -19019.6 | success= 36.0% | loss=0.2014 | eps=0.908 | beta=0.461 | stuck=  34.6
+  ✓ New best (ema_r=-21556.9) → weights_d3qn.pth
+Ep   925/10000 | steps=  840976 | mean_r= -18768.5 | success= 32.0% | loss=0.1988 | eps=0.905 | beta=0.463 | stuck=  27.3
+  ✓ New best (ema_r=-21278.0) → weights_d3qn.pth
+Ep   950/10000 | steps=  864369 | mean_r= -23856.6 | success= 24.0% | loss=0.1986 | eps=0.903 | beta=0.465 | stuck=  45.7
+Ep   975/10000 | steps=  886055 | mean_r= -20781.1 | success= 36.0% | loss=0.1976 | eps=0.900 | beta=0.466 | stuck=  40.5
+Ep  1000/10000 | steps=  906503 | mean_r= -13735.2 | success= 40.0% | loss=0.1940 | eps=0.898 | beta=0.468 | stuck=   9.7
+  ✓ New best (ema_r=-20687.9) → weights_d3qn.pth
+Ep  1025/10000 | steps=  928404 | mean_r= -20306.8 | success= 24.0% | loss=0.1883 | eps=0.896 | beta=0.470 | stuck=  34.0
+  ✓ New best (ema_r=-20649.8) → weights_d3qn.pth
+Ep  1050/10000 | steps=  950903 | mean_r= -15773.8 | success= 28.0% | loss=0.1842 | eps=0.893 | beta=0.471 | stuck=  13.6
+  ✓ New best (ema_r=-20162.2) → weights_d3qn.pth
+Ep  1075/10000 | steps=  970720 | mean_r= -15174.7 | success= 48.0% | loss=0.1863 | eps=0.891 | beta=0.473 | stuck=  20.4
+  ✓ New best (ema_r=-19663.4) → weights_d3qn.pth
+Ep  1100/10000 | steps=  991443 | mean_r= -15175.8 | success= 32.0% | loss=0.1896 | eps=0.888 | beta=0.474 | stuck=  13.7
+  ✓ New best (ema_r=-19214.7) → weights_d3qn.pth
+Ep  1125/10000 | steps= 1011682 | mean_r= -20013.9 | success= 44.0% | loss=0.1892 | eps=0.886 | beta=0.476 | stuck=  40.2
+Ep  1150/10000 | steps= 1030133 | mean_r= -14814.7 | success= 52.0% | loss=0.1778 | eps=0.884 | beta=0.477 | stuck=  23.6
+  ✓ New best (ema_r=-18846.6) → weights_d3qn.pth
+Ep  1175/10000 | steps= 1050684 | mean_r= -16590.0 | success= 44.0% | loss=0.1732 | eps=0.882 | beta=0.479 | stuck=  22.4
+  ✓ New best (ema_r=-18620.9) → weights_d3qn.pth
+Ep  1200/10000 | steps= 1071627 | mean_r= -20219.4 | success= 40.0% | loss=0.1782 | eps=0.879 | beta=0.480 | stuck=  39.9
+Ep  1225/10000 | steps= 1090681 | mean_r= -17511.7 | success= 48.0% | loss=0.1830 | eps=0.877 | beta=0.482 | stuck=  32.8
+Ep  1250/10000 | steps= 1113656 | mean_r= -20841.6 | success= 28.0% | loss=0.1861 | eps=0.875 | beta=0.484 | stuck=  34.1
+Ep  1275/10000 | steps= 1134018 | mean_r= -25788.0 | success= 44.0% | loss=0.1880 | eps=0.872 | beta=0.485 | stuck=  66.8
+Ep  1300/10000 | steps= 1153405 | mean_r= -15710.1 | success= 44.0% | loss=0.1839 | eps=0.870 | beta=0.487 | stuck=  21.0
+Ep  1325/10000 | steps= 1174313 | mean_r= -18940.8 | success= 32.0% | loss=0.1845 | eps=0.868 | beta=0.488 | stuck=  31.1
+Ep  1350/10000 | steps= 1196831 | mean_r= -22532.2 | success= 28.0% | loss=0.1815 | eps=0.865 | beta=0.490 | stuck=  44.3
+Ep  1375/10000 | steps= 1217056 | mean_r= -20597.1 | success= 44.0% | loss=0.1826 | eps=0.863 | beta=0.491 | stuck=  44.7
+Ep  1400/10000 | steps= 1235719 | mean_r= -15336.9 | success= 52.0% | loss=0.1837 | eps=0.861 | beta=0.493 | stuck=  24.3
+Ep  1425/10000 | steps= 1255468 | mean_r= -16285.7 | success= 40.0% | loss=0.1761 | eps=0.859 | beta=0.494 | stuck=  22.2
+Ep  1450/10000 | steps= 1278112 | mean_r= -22879.7 | success= 32.0% | loss=0.1831 | eps=0.856 | beta=0.496 | stuck=  43.1
+Ep  1475/10000 | steps= 1296945 | mean_r= -15943.6 | success= 44.0% | loss=0.1807 | eps=0.854 | beta=0.497 | stuck=  24.4
+Ep  1500/10000 | steps= 1316827 | mean_r= -19619.0 | success= 40.0% | loss=0.1828 | eps=0.852 | beta=0.499 | stuck=  38.9
+Ep  1525/10000 | steps= 1336025 | mean_r= -18430.6 | success= 44.0% | loss=0.1818 | eps=0.850 | beta=0.500 | stuck=  33.6
+Ep  1550/10000 | steps= 1355118 | mean_r= -15911.2 | success= 48.0% | loss=0.1765 | eps=0.848 | beta=0.502 | stuck=  25.6
+Ep  1575/10000 | steps= 1376415 | mean_r= -20847.8 | success= 40.0% | loss=0.1781 | eps=0.845 | beta=0.503 | stuck=  43.0
+Ep  1600/10000 | steps= 1398860 | mean_r= -16442.1 | success= 40.0% | loss=0.1768 | eps=0.843 | beta=0.505 | stuck=  16.9
+Ep  1625/10000 | steps= 1419362 | mean_r= -17456.5 | success= 44.0% | loss=0.1744 | eps=0.840 | beta=0.506 | stuck=  29.4
+  ✓ New best (ema_r=-18513.8) → weights_d3qn.pth
+Ep  1650/10000 | steps= 1440413 | mean_r= -18396.8 | success= 44.0% | loss=0.1764 | eps=0.838 | beta=0.508 | stuck=  29.3
+  ✓ New best (ema_r=-18502.1) → weights_d3qn.pth
+Ep  1675/10000 | steps= 1461347 | mean_r= -16053.5 | success= 40.0% | loss=0.1759 | eps=0.836 | beta=0.510 | stuck=  20.5
+  ✓ New best (ema_r=-18257.2) → weights_d3qn.pth
+Ep  1700/10000 | steps= 1479118 | mean_r= -14667.5 | success= 56.0% | loss=0.1788 | eps=0.834 | beta=0.511 | stuck=  24.5
+  ✓ New best (ema_r=-17898.3) → weights_d3qn.pth
+Ep  1725/10000 | steps= 1500789 | mean_r= -22829.3 | success= 40.0% | loss=0.1809 | eps=0.831 | beta=0.513 | stuck=  49.7
+Ep  1750/10000 | steps= 1522461 | mean_r= -20048.6 | success= 24.0% | loss=0.1777 | eps=0.829 | beta=0.514 | stuck=  34.5
+Ep  1775/10000 | steps= 1545471 | mean_r= -20919.0 | success= 24.0% | loss=0.1793 | eps=0.826 | beta=0.516 | stuck=  34.3
+Ep  1800/10000 | steps= 1566470 | mean_r= -18549.6 | success= 28.0% | loss=0.1796 | eps=0.824 | beta=0.517 | stuck=  27.4
+Ep  1825/10000 | steps= 1585916 | mean_r= -15651.6 | success= 48.0% | loss=0.1820 | eps=0.822 | beta=0.519 | stuck=  25.0
+Ep  1850/10000 | steps= 1604224 | mean_r= -13451.4 | success= 56.0% | loss=0.1887 | eps=0.820 | beta=0.520 | stuck=  16.2
+Ep  1875/10000 | steps= 1622699 | mean_r= -12777.6 | success= 64.0% | loss=0.1849 | eps=0.817 | beta=0.522 | stuck=  15.0
+  ✓ New best (ema_r=-17438.7) → weights_d3qn.pth
+Ep  1900/10000 | steps= 1642920 | mean_r= -20417.9 | success= 44.0% | loss=0.1893 | eps=0.815 | beta=0.523 | stuck=  41.4
+Ep  1925/10000 | steps= 1661026 | mean_r= -16671.3 | success= 56.0% | loss=0.1864 | eps=0.813 | beta=0.525 | stuck=  32.2
+Ep  1950/10000 | steps= 1679071 | mean_r= -15875.0 | success= 56.0% | loss=0.1893 | eps=0.811 | beta=0.526 | stuck=  31.0
+Ep  1975/10000 | steps= 1697234 | mean_r= -16230.0 | success= 56.0% | loss=0.1864 | eps=0.809 | beta=0.527 | stuck=  29.0
+  ✓ New best (ema_r=-17332.1) → weights_d3qn.pth
+Ep  2000/10000 | steps= 1715707 | mean_r= -17091.3 | success= 44.0% | loss=0.1862 | eps=0.807 | beta=0.529 | stuck=  31.2
+  ✓ New best (ema_r=-17308.1) → weights_d3qn.pth
+Ep  2025/10000 | steps= 1735154 | mean_r= -15261.6 | success= 52.0% | loss=0.1823 | eps=0.805 | beta=0.530 | stuck=  20.7
+  ✓ New best (ema_r=-17103.4) → weights_d3qn.pth
+Ep  2050/10000 | steps= 1756454 | mean_r= -22256.4 | success= 40.0% | loss=0.1807 | eps=0.802 | beta=0.532 | stuck=  47.4
+Ep  2075/10000 | steps= 1775135 | mean_r= -15221.8 | success= 48.0% | loss=0.1816 | eps=0.800 | beta=0.533 | stuck=  21.9
+Ep  2100/10000 | steps= 1794337 | mean_r= -15989.2 | success= 56.0% | loss=0.1797 | eps=0.798 | beta=0.535 | stuck=  27.9
+Ep  2125/10000 | steps= 1811914 | mean_r= -12349.7 | success= 68.0% | loss=0.1782 | eps=0.796 | beta=0.536 | stuck=  16.7
+  ✓ New best (ema_r=-16751.0) → weights_d3qn.pth
+Ep  2150/10000 | steps= 1828113 | mean_r= -10108.3 | success= 68.0% | loss=0.1785 | eps=0.794 | beta=0.537 | stuck=   9.9
+  ✓ New best (ema_r=-16086.7) → weights_d3qn.pth
+Ep  2175/10000 | steps= 1847975 | mean_r= -18488.8 | success= 52.0% | loss=0.1820 | eps=0.792 | beta=0.539 | stuck=  36.6
+Ep  2200/10000 | steps= 1866466 | mean_r= -13009.9 | success= 64.0% | loss=0.1762 | eps=0.790 | beta=0.540 | stuck=  15.1
+  ✓ New best (ema_r=-15995.2) → weights_d3qn.pth
+Ep  2225/10000 | steps= 1885381 | mean_r= -14662.5 | success= 60.0% | loss=0.1741 | eps=0.788 | beta=0.541 | stuck=  23.8
+  ✓ New best (ema_r=-15862.0) → weights_d3qn.pth
+Ep  2250/10000 | steps= 1903623 | mean_r= -15383.6 | success= 56.0% | loss=0.1756 | eps=0.786 | beta=0.543 | stuck=  27.8
+  ✓ New best (ema_r=-15814.1) → weights_d3qn.pth
+Ep  2275/10000 | steps= 1921199 | mean_r= -16396.1 | success= 56.0% | loss=0.1751 | eps=0.784 | beta=0.544 | stuck=  34.6
+Ep  2300/10000 | steps= 1937998 | mean_r= -14470.0 | success= 60.0% | loss=0.1746 | eps=0.782 | beta=0.545 | stuck=  29.6
+  ✓ New best (ema_r=-15732.1) → weights_d3qn.pth
+Ep  2325/10000 | steps= 1958495 | mean_r= -22890.4 | success= 44.0% | loss=0.1750 | eps=0.780 | beta=0.547 | stuck=  52.7
+Ep  2350/10000 | steps= 1974885 | mean_r= -17042.2 | success= 52.0% | loss=0.1748 | eps=0.778 | beta=0.548 | stuck=  41.6
+Ep  2375/10000 | steps= 1991259 | mean_r= -10571.8 | success= 68.0% | loss=0.1734 | eps=0.776 | beta=0.549 | stuck=  13.0
+Ep  2400/10000 | steps= 2007962 | mean_r= -13402.4 | success= 72.0% | loss=0.1777 | eps=0.774 | beta=0.551 | stuck=  26.2
+  ✓ New best (ema_r=-15662.7) → weights_d3qn.pth
+Ep  2425/10000 | steps= 2023478 | mean_r=  -8603.1 | success= 68.0% | loss=0.1757 | eps=0.772 | beta=0.552 | stuck=   3.0
+  ✓ New best (ema_r=-14956.7) → weights_d3qn.pth
+Ep  2450/10000 | steps= 2043888 | mean_r= -20232.0 | success= 44.0% | loss=0.1786 | eps=0.770 | beta=0.553 | stuck=  41.5
+Ep  2475/10000 | steps= 2060273 | mean_r=  -9927.6 | success= 68.0% | loss=0.1781 | eps=0.768 | beta=0.555 | stuck=  10.0
+  ✓ New best (ema_r=-14928.6) → weights_d3qn.pth
+Ep  2500/10000 | steps= 2078522 | mean_r=  -9671.5 | success= 72.0% | loss=0.1739 | eps=0.766 | beta=0.556 | stuck=   4.2
+  ✓ New best (ema_r=-14402.9) → weights_d3qn.pth
+Ep  2525/10000 | steps= 2098113 | mean_r= -16052.5 | success= 48.0% | loss=0.1763 | eps=0.764 | beta=0.557 | stuck=  25.6
+Ep  2550/10000 | steps= 2115629 | mean_r= -11902.8 | success= 76.0% | loss=0.1759 | eps=0.762 | beta=0.559 | stuck=  15.3
+  ✓ New best (ema_r=-14301.3) → weights_d3qn.pth
+Ep  2575/10000 | steps= 2131386 | mean_r= -15634.6 | success= 60.0% | loss=0.1731 | eps=0.760 | beta=0.560 | stuck=  35.6
+Ep  2600/10000 | steps= 2150102 | mean_r= -11263.3 | success= 60.0% | loss=0.1719 | eps=0.758 | beta=0.561 | stuck=   5.6
+  ✓ New best (ema_r=-14117.5) → weights_d3qn.pth
+Ep  2625/10000 | steps= 2168512 | mean_r= -12559.0 | success= 56.0% | loss=0.1684 | eps=0.756 | beta=0.563 | stuck=  13.5
+  ✓ New best (ema_r=-13961.7) → weights_d3qn.pth
+Ep  2650/10000 | steps= 2184658 | mean_r= -12950.6 | success= 72.0% | loss=0.1636 | eps=0.754 | beta=0.564 | stuck=  24.8
+  ✓ New best (ema_r=-13860.6) → weights_d3qn.pth
+Ep  2675/10000 | steps= 2203230 | mean_r= -15341.4 | success= 52.0% | loss=0.1631 | eps=0.752 | beta=0.565 | stuck=  24.5
+Ep  2700/10000 | steps= 2223189 | mean_r= -16656.7 | success= 40.0% | loss=0.1603 | eps=0.750 | beta=0.567 | stuck=  25.2
+Ep  2725/10000 | steps= 2238097 | mean_r=  -9103.8 | success= 72.0% | loss=0.1580 | eps=0.748 | beta=0.568 | stuck=   9.3
+  ✓ New best (ema_r=-13756.5) → weights_d3qn.pth
+Ep  2750/10000 | steps= 2253152 | mean_r= -10803.3 | success= 76.0% | loss=0.1589 | eps=0.747 | beta=0.569 | stuck=  18.6
+  ✓ New best (ema_r=-13461.2) → weights_d3qn.pth
+Ep  2775/10000 | steps= 2268529 | mean_r= -13384.7 | success= 68.0% | loss=0.1546 | eps=0.745 | beta=0.570 | stuck=  28.9
+  ✓ New best (ema_r=-13453.5) → weights_d3qn.pth
+Ep  2800/10000 | steps= 2287213 | mean_r= -15274.4 | success= 56.0% | loss=0.1535 | eps=0.743 | beta=0.572 | stuck=  24.5
+Ep  2825/10000 | steps= 2304264 | mean_r= -13296.9 | success= 60.0% | loss=0.1500 | eps=0.741 | beta=0.573 | stuck=  21.3
+Ep  2850/10000 | steps= 2323012 | mean_r= -14295.6 | success= 52.0% | loss=0.1491 | eps=0.739 | beta=0.574 | stuck=  19.3
+Ep  2875/10000 | steps= 2341444 | mean_r= -14496.4 | success= 56.0% | loss=0.1491 | eps=0.737 | beta=0.576 | stuck=  22.8
+Ep  2900/10000 | steps= 2358016 | mean_r= -13259.5 | success= 72.0% | loss=0.1497 | eps=0.735 | beta=0.577 | stuck=  25.1
+Ep  2925/10000 | steps= 2374342 | mean_r= -11598.1 | success= 76.0% | loss=0.1459 | eps=0.733 | beta=0.578 | stuck=  20.2
+Ep  2950/10000 | steps= 2391940 | mean_r=  -9638.1 | success= 64.0% | loss=0.1438 | eps=0.731 | beta=0.579 | stuck=   3.4
+  ✓ New best (ema_r=-13108.1) → weights_d3qn.pth
+Ep  2975/10000 | steps= 2411094 | mean_r= -15733.7 | success= 48.0% | loss=0.1421 | eps=0.729 | beta=0.581 | stuck=  23.1
+Ep  3000/10000 | steps= 2430677 | mean_r= -17407.7 | success= 44.0% | loss=0.1428 | eps=0.727 | beta=0.582 | stuck=  27.8
+Ep  3025/10000 | steps= 2447624 | mean_r= -10810.5 | success= 64.0% | loss=0.1418 | eps=0.725 | beta=0.584 | stuck=  11.1
+Ep  3050/10000 | steps= 2465864 | mean_r= -14739.3 | success= 56.0% | loss=0.1403 | eps=0.723 | beta=0.585 | stuck=  25.8
+Ep  3075/10000 | steps= 2484583 | mean_r= -14219.4 | success= 56.0% | loss=0.1400 | eps=0.720 | beta=0.586 | stuck=  19.8
+Ep  3100/10000 | steps= 2502204 | mean_r= -16345.8 | success= 60.0% | loss=0.1373 | eps=0.719 | beta=0.588 | stuck=  33.8
+Ep  3125/10000 | steps= 2520130 | mean_r= -14099.0 | success= 56.0% | loss=0.1358 | eps=0.716 | beta=0.589 | stuck=  20.8
+Ep  3150/10000 | steps= 2538072 | mean_r= -15291.3 | success= 60.0% | loss=0.1350 | eps=0.714 | beta=0.590 | stuck=  28.7
+Ep  3175/10000 | steps= 2553579 | mean_r= -14022.1 | success= 68.0% | loss=0.1319 | eps=0.713 | beta=0.592 | stuck=  29.3
+Ep  3200/10000 | steps= 2570144 | mean_r= -11355.2 | success= 68.0% | loss=0.1283 | eps=0.711 | beta=0.593 | stuck=  15.0
+Ep  3225/10000 | steps= 2588546 | mean_r= -14514.2 | success= 52.0% | loss=0.1278 | eps=0.709 | beta=0.594 | stuck=  18.6
+Ep  3250/10000 | steps= 2604628 | mean_r= -10749.8 | success= 64.0% | loss=0.1256 | eps=0.707 | beta=0.595 | stuck=  12.5
+Ep  3275/10000 | steps= 2619207 | mean_r= -11073.8 | success= 68.0% | loss=0.1250 | eps=0.705 | beta=0.596 | stuck=  20.1
+Ep  3300/10000 | steps= 2637830 | mean_r= -15346.4 | success= 48.0% | loss=0.1263 | eps=0.703 | beta=0.598 | stuck=  23.0
+Ep  3325/10000 | steps= 2654463 | mean_r= -10004.7 | success= 68.0% | loss=0.1235 | eps=0.701 | beta=0.599 | stuck=  11.7
+Ep  3350/10000 | steps= 2669429 | mean_r=  -9858.7 | success= 68.0% | loss=0.1241 | eps=0.700 | beta=0.600 | stuck=  10.7
+  ✓ New best (ema_r=-12835.9) → weights_d3qn.pth
+Ep  3375/10000 | steps= 2685941 | mean_r= -12343.6 | success= 64.0% | loss=0.1203 | eps=0.698 | beta=0.601 | stuck=  17.2
+  ✓ New best (ema_r=-12786.7) → weights_d3qn.pth
+Ep  3400/10000 | steps= 2702404 | mean_r=  -9540.8 | success= 72.0% | loss=0.1194 | eps=0.696 | beta=0.603 | stuck=   6.9
+  ✓ New best (ema_r=-12462.1) → weights_d3qn.pth
+Ep  3425/10000 | steps= 2718095 | mean_r= -14117.3 | success= 76.0% | loss=0.1180 | eps=0.694 | beta=0.604 | stuck=  34.2
+Ep  3450/10000 | steps= 2733497 | mean_r= -11229.1 | success= 72.0% | loss=0.1155 | eps=0.692 | beta=0.605 | stuck=  19.0
+Ep  3475/10000 | steps= 2749610 | mean_r= -10869.6 | success= 64.0% | loss=0.1156 | eps=0.691 | beta=0.606 | stuck=  13.2
+  ✓ New best (ema_r=-12326.0) → weights_d3qn.pth
+Ep  3500/10000 | steps= 2766246 | mean_r= -14467.8 | success= 68.0% | loss=0.1172 | eps=0.689 | beta=0.607 | stuck=  29.2
+Ep  3525/10000 | steps= 2777735 | mean_r=  -4595.6 | success= 88.0% | loss=0.1140 | eps=0.688 | beta=0.608 | stuck=   2.1
+  ✓ New best (ema_r=-11745.7) → weights_d3qn.pth
+Ep  3550/10000 | steps= 2792316 | mean_r= -10447.6 | success= 64.0% | loss=0.1151 | eps=0.686 | beta=0.609 | stuck=  15.0
+  ✓ New best (ema_r=-11615.9) → weights_d3qn.pth
+Ep  3575/10000 | steps= 2810105 | mean_r= -13273.0 | success= 60.0% | loss=0.1123 | eps=0.684 | beta=0.611 | stuck=  19.8
+Ep  3600/10000 | steps= 2823834 | mean_r=  -7556.2 | success= 80.0% | loss=0.1108 | eps=0.682 | beta=0.612 | stuck=   8.4
+  ✓ New best (ema_r=-11359.1) → weights_d3qn.pth
+Ep  3625/10000 | steps= 2841566 | mean_r= -14274.8 | success= 80.0% | loss=0.1101 | eps=0.680 | beta=0.613 | stuck=  27.2
+Ep  3650/10000 | steps= 2857346 | mean_r= -16591.3 | success= 64.0% | loss=0.1114 | eps=0.679 | beta=0.614 | stuck=  42.7
+Ep  3675/10000 | steps= 2873986 | mean_r= -15581.2 | success= 56.0% | loss=0.1122 | eps=0.677 | beta=0.616 | stuck=  32.0
+Ep  3700/10000 | steps= 2888601 | mean_r= -11232.4 | success= 68.0% | loss=0.1115 | eps=0.675 | beta=0.617 | stuck=  18.2
+Ep  3725/10000 | steps= 2903177 | mean_r= -15442.4 | success= 76.0% | loss=0.1133 | eps=0.673 | beta=0.618 | stuck=  42.4
+Ep  3750/10000 | steps= 2913709 | mean_r=  -5040.8 | success= 84.0% | loss=0.1108 | eps=0.672 | beta=0.619 | stuck=   5.4
+Ep  3775/10000 | steps= 2929542 | mean_r= -10845.4 | success= 64.0% | loss=0.1098 | eps=0.670 | beta=0.620 | stuck=  12.3
+Ep  3800/10000 | steps= 2947805 | mean_r= -16258.8 | success= 52.0% | loss=0.1103 | eps=0.668 | beta=0.621 | stuck=  31.0
+Ep  3825/10000 | steps= 2965566 | mean_r= -20753.6 | success= 60.0% | loss=0.1124 | eps=0.666 | beta=0.622 | stuck=  57.2
+Ep  3850/10000 | steps= 2979432 | mean_r=  -8911.7 | success= 80.0% | loss=0.1114 | eps=0.665 | beta=0.623 | stuck=  13.3
+Ep  3875/10000 | steps= 2993737 | mean_r= -12365.1 | success= 72.0% | loss=0.1109 | eps=0.663 | beta=0.625 | stuck=  27.2
+Ep  3900/10000 | steps= 3008564 | mean_r= -10001.2 | success= 76.0% | loss=0.1099 | eps=0.662 | beta=0.626 | stuck=  15.8
+Ep  3925/10000 | steps= 3023726 | mean_r= -14413.1 | success= 76.0% | loss=0.1097 | eps=0.660 | beta=0.627 | stuck=  35.5
+Ep  3950/10000 | steps= 3042204 | mean_r= -15006.7 | success= 44.0% | loss=0.1099 | eps=0.658 | beta=0.628 | stuck=  21.0
+Ep  3975/10000 | steps= 3056584 | mean_r=  -9179.6 | success= 68.0% | loss=0.1080 | eps=0.656 | beta=0.629 | stuck=  11.1
+Ep  4000/10000 | steps= 3071143 | mean_r= -10918.7 | success= 76.0% | loss=0.1086 | eps=0.654 | beta=0.630 | stuck=  20.0
+Ep  4025/10000 | steps= 3085249 | mean_r=  -9419.0 | success= 68.0% | loss=0.1069 | eps=0.653 | beta=0.631 | stuck=  12.1
+Ep  4050/10000 | steps= 3099544 | mean_r=  -9925.0 | success= 72.0% | loss=0.1052 | eps=0.651 | beta=0.632 | stuck=  14.6
+Ep  4075/10000 | steps= 3116848 | mean_r= -10777.2 | success= 64.0% | loss=0.1047 | eps=0.649 | beta=0.634 | stuck=  11.4
+Ep  4100/10000 | steps= 3130176 | mean_r= -12493.7 | success= 72.0% | loss=0.1043 | eps=0.648 | beta=0.635 | stuck=  30.3
+Ep  4125/10000 | steps= 3143919 | mean_r=  -7271.6 | success= 72.0% | loss=0.1021 | eps=0.646 | beta=0.636 | stuck=   4.0
+  ✓ New best (ema_r=-11334.3) → weights_d3qn.pth
+Ep  4150/10000 | steps= 3158338 | mean_r=  -9055.0 | success= 76.0% | loss=0.0996 | eps=0.645 | beta=0.637 | stuck=  12.7
+  ✓ New best (ema_r=-11106.4) → weights_d3qn.pth
+Ep  4175/10000 | steps= 3174283 | mean_r= -17068.0 | success= 64.0% | loss=0.1001 | eps=0.643 | beta=0.638 | stuck=  43.8
+Ep  4200/10000 | steps= 3189108 | mean_r= -14843.4 | success= 68.0% | loss=0.1003 | eps=0.641 | beta=0.639 | stuck=  37.4
+Ep  4225/10000 | steps= 3205614 | mean_r= -13363.0 | success= 48.0% | loss=0.1004 | eps=0.639 | beta=0.640 | stuck=  20.6
+Ep  4250/10000 | steps= 3219666 | mean_r=  -9479.6 | success= 68.0% | loss=0.0989 | eps=0.638 | beta=0.641 | stuck=  13.8
+Ep  4275/10000 | steps= 3234597 | mean_r= -11752.2 | success= 68.0% | loss=0.0980 | eps=0.636 | beta=0.643 | stuck=  22.2
+Ep  4300/10000 | steps= 3248585 | mean_r=  -7726.0 | success= 68.0% | loss=0.0979 | eps=0.635 | beta=0.644 | stuck=   6.3
+Ep  4325/10000 | steps= 3263772 | mean_r=  -9644.3 | success= 68.0% | loss=0.0971 | eps=0.633 | beta=0.645 | stuck=   9.4
+Ep  4350/10000 | steps= 3277299 | mean_r=  -8048.5 | success= 76.0% | loss=0.0962 | eps=0.631 | beta=0.646 | stuck=  10.4
+  ✓ New best (ema_r=-10952.5) → weights_d3qn.pth
+Ep  4375/10000 | steps= 3293099 | mean_r= -11031.2 | success= 60.0% | loss=0.0960 | eps=0.630 | beta=0.647 | stuck=  13.4
+Ep  4400/10000 | steps= 3306725 | mean_r=  -6068.0 | success= 80.0% | loss=0.0943 | eps=0.628 | beta=0.648 | stuck=   1.6
+  ✓ New best (ema_r=-10471.2) → weights_d3qn.pth
+Ep  4425/10000 | steps= 3320520 | mean_r=  -9881.0 | success= 68.0% | loss=0.0927 | eps=0.626 | beta=0.649 | stuck=  16.6
+  ✓ New best (ema_r=-10412.2) → weights_d3qn.pth
+Ep  4450/10000 | steps= 3334523 | mean_r=  -9181.0 | success= 84.0% | loss=0.0932 | eps=0.625 | beta=0.650 | stuck=  16.4
+  ✓ New best (ema_r=-10289.1) → weights_d3qn.pth
+Ep  4475/10000 | steps= 3348828 | mean_r= -11079.5 | success= 68.0% | loss=0.0924 | eps=0.623 | beta=0.651 | stuck=  18.2
+Ep  4500/10000 | steps= 3361076 | mean_r=  -7747.8 | success= 76.0% | loss=0.0910 | eps=0.622 | beta=0.652 | stuck=  12.3
+  ✓ New best (ema_r=-10106.1) → weights_d3qn.pth
+Ep  4525/10000 | steps= 3374153 | mean_r=  -7017.4 | success= 80.0% | loss=0.0903 | eps=0.620 | beta=0.653 | stuck=   8.4
+  ✓ New best (ema_r=-9797.2) → weights_d3qn.pth
+Ep  4550/10000 | steps= 3386777 | mean_r=  -9621.5 | success= 72.0% | loss=0.0908 | eps=0.619 | beta=0.654 | stuck=  19.4
+  ✓ New best (ema_r=-9779.6) → weights_d3qn.pth
+Ep  4575/10000 | steps= 3399014 | mean_r=  -6577.8 | success= 80.0% | loss=0.0886 | eps=0.618 | beta=0.655 | stuck=   6.2
+  ✓ New best (ema_r=-9459.4) → weights_d3qn.pth
+Ep  4600/10000 | steps= 3414259 | mean_r=  -8616.0 | success= 76.0% | loss=0.0869 | eps=0.616 | beta=0.656 | stuck=   6.8
+  ✓ New best (ema_r=-9375.1) → weights_d3qn.pth
+Ep  4625/10000 | steps= 3429986 | mean_r=  -9913.5 | success= 76.0% | loss=0.0857 | eps=0.614 | beta=0.657 | stuck=  13.6
+Ep  4650/10000 | steps= 3443840 | mean_r=  -8368.2 | success= 80.0% | loss=0.0844 | eps=0.613 | beta=0.658 | stuck=  11.2
+  ✓ New best (ema_r=-9322.9) → weights_d3qn.pth
+Ep  4675/10000 | steps= 3458676 | mean_r=  -9443.3 | success= 68.0% | loss=0.0818 | eps=0.611 | beta=0.659 | stuck=  11.5
+Ep  4700/10000 | steps= 3473704 | mean_r=  -8255.0 | success= 84.0% | loss=0.0794 | eps=0.609 | beta=0.661 | stuck=   8.7
+  ✓ New best (ema_r=-9226.9) → weights_d3qn.pth
+Ep  4725/10000 | steps= 3490430 | mean_r= -12582.2 | success= 60.0% | loss=0.0782 | eps=0.607 | beta=0.662 | stuck=  16.6
+Ep  4750/10000 | steps= 3503263 | mean_r=  -8702.0 | success= 80.0% | loss=0.0764 | eps=0.606 | beta=0.663 | stuck=  14.9
+Ep  4775/10000 | steps= 3518295 | mean_r= -13302.2 | success= 60.0% | loss=0.0761 | eps=0.604 | beta=0.664 | stuck=  26.8
+Ep  4800/10000 | steps= 3532734 | mean_r= -11105.6 | success= 68.0% | loss=0.0750 | eps=0.603 | beta=0.665 | stuck=  19.6
+Ep  4825/10000 | steps= 3547051 | mean_r= -11170.3 | success= 68.0% | loss=0.0735 | eps=0.601 | beta=0.666 | stuck=  21.2
+Ep  4850/10000 | steps= 3562744 | mean_r= -11116.8 | success= 64.0% | loss=0.0715 | eps=0.599 | beta=0.667 | stuck=  14.6
+Ep  4875/10000 | steps= 3574551 | mean_r=  -5603.8 | success= 76.0% | loss=0.0698 | eps=0.598 | beta=0.668 | stuck=   2.7
+Ep  4900/10000 | steps= 3587861 | mean_r=  -8972.9 | success= 76.0% | loss=0.0702 | eps=0.596 | beta=0.669 | stuck=  14.6
+Ep  4925/10000 | steps= 3604579 | mean_r= -15012.5 | success= 68.0% | loss=0.0691 | eps=0.594 | beta=0.670 | stuck=  30.8
+Ep  4950/10000 | steps= 3617601 | mean_r=  -7312.1 | success= 76.0% | loss=0.0683 | eps=0.593 | beta=0.671 | stuck=   6.8
+Ep  4975/10000 | steps= 3629719 | mean_r=  -5778.1 | success= 84.0% | loss=0.0660 | eps=0.592 | beta=0.672 | stuck=   4.0
+Ep  5000/10000 | steps= 3641067 | mean_r=  -6617.8 | success= 80.0% | loss=0.0655 | eps=0.590 | beta=0.673 | stuck=   9.1
+  ✓ New best (ema_r=-9210.8) → weights_d3qn.pth
+Ep  5025/10000 | steps= 3651107 | mean_r=  -5635.9 | success= 92.0% | loss=0.0648 | eps=0.589 | beta=0.674 | stuck=  10.0
+  ✓ New best (ema_r=-8853.3) → weights_d3qn.pth
+Ep  5050/10000 | steps= 3667910 | mean_r= -13212.9 | success= 68.0% | loss=0.0641 | eps=0.587 | beta=0.675 | stuck=  23.7
+Ep  5075/10000 | steps= 3682041 | mean_r=  -7436.8 | success= 64.0% | loss=0.0631 | eps=0.586 | beta=0.676 | stuck=   0.8
+Ep  5100/10000 | steps= 3694436 | mean_r=  -6418.5 | success= 84.0% | loss=0.0614 | eps=0.584 | beta=0.677 | stuck=   7.3
+  ✓ New best (ema_r=-8835.5) → weights_d3qn.pth
+Ep  5125/10000 | steps= 3706495 | mean_r=  -7834.4 | success= 72.0% | loss=0.0606 | eps=0.583 | beta=0.678 | stuck=  11.6
+  ✓ New best (ema_r=-8735.4) → weights_d3qn.pth
+Ep  5150/10000 | steps= 3721972 | mean_r=  -9782.7 | success= 64.0% | loss=0.0601 | eps=0.581 | beta=0.679 | stuck=   8.6
+Ep  5175/10000 | steps= 3735569 | mean_r= -10224.7 | success= 76.0% | loss=0.0589 | eps=0.580 | beta=0.680 | stuck=  18.7
+Ep  5200/10000 | steps= 3750636 | mean_r=  -9890.8 | success= 76.0% | loss=0.0585 | eps=0.578 | beta=0.681 | stuck=  15.1
+Ep  5225/10000 | steps= 3762550 | mean_r=  -6402.2 | success= 96.0% | loss=0.0576 | eps=0.577 | beta=0.682 | stuck=  12.1
+Ep  5250/10000 | steps= 3778534 | mean_r= -13495.5 | success= 72.0% | loss=0.0562 | eps=0.575 | beta=0.683 | stuck=  28.1
+Ep  5275/10000 | steps= 3791932 | mean_r=  -7399.0 | success= 72.0% | loss=0.0553 | eps=0.573 | beta=0.684 | stuck=   5.0
+Ep  5300/10000 | steps= 3804861 | mean_r=  -7768.5 | success= 84.0% | loss=0.0543 | eps=0.572 | beta=0.685 | stuck=  11.7
+Ep  5325/10000 | steps= 3820005 | mean_r= -13054.6 | success= 60.0% | loss=0.0542 | eps=0.570 | beta=0.687 | stuck=  27.5
+Ep  5350/10000 | steps= 3832336 | mean_r=  -8836.3 | success= 72.0% | loss=0.0535 | eps=0.569 | beta=0.687 | stuck=  15.5
+Ep  5375/10000 | steps= 3849206 | mean_r=  -8579.7 | success= 76.0% | loss=0.0527 | eps=0.567 | beta=0.689 | stuck=   1.6
+Ep  5400/10000 | steps= 3862762 | mean_r=  -7980.4 | success= 80.0% | loss=0.0512 | eps=0.565 | beta=0.690 | stuck=  11.2
+Ep  5425/10000 | steps= 3877032 | mean_r=  -9670.7 | success= 76.0% | loss=0.0510 | eps=0.564 | beta=0.691 | stuck=  14.6
+Ep  5450/10000 | steps= 3891330 | mean_r= -11732.4 | success= 80.0% | loss=0.0515 | eps=0.562 | beta=0.692 | stuck=  26.0
+Ep  5475/10000 | steps= 3905042 | mean_r=  -9624.5 | success= 68.0% | loss=0.0519 | eps=0.561 | beta=0.693 | stuck=  15.3
+Ep  5500/10000 | steps= 3919553 | mean_r= -10917.0 | success= 72.0% | loss=0.0510 | eps=0.559 | beta=0.694 | stuck=  19.2
+Ep  5525/10000 | steps= 3934662 | mean_r=  -8880.6 | success= 72.0% | loss=0.0498 | eps=0.557 | beta=0.695 | stuck=   6.9
+Ep  5550/10000 | steps= 3948721 | mean_r= -10708.4 | success= 80.0% | loss=0.0493 | eps=0.556 | beta=0.696 | stuck=  21.3
+Ep  5575/10000 | steps= 3959403 | mean_r=  -4235.0 | success= 96.0% | loss=0.0479 | eps=0.555 | beta=0.697 | stuck=   5.4
+Ep  5600/10000 | steps= 3972458 | mean_r=  -7513.0 | success= 72.0% | loss=0.0478 | eps=0.553 | beta=0.698 | stuck=   9.2
+Ep  5625/10000 | steps= 3987415 | mean_r= -13251.1 | success= 72.0% | loss=0.0481 | eps=0.551 | beta=0.699 | stuck=  30.1
+Ep  5650/10000 | steps= 4003754 | mean_r= -15255.7 | success= 72.0% | loss=0.0477 | eps=0.550 | beta=0.700 | stuck=  35.2
+Ep  5675/10000 | steps= 4015126 | mean_r=  -7113.9 | success= 84.0% | loss=0.0483 | eps=0.548 | beta=0.701 | stuck=  13.3
+Ep  5700/10000 | steps= 4032059 | mean_r= -13073.4 | success= 60.0% | loss=0.0488 | eps=0.546 | beta=0.702 | stuck=  19.8
+Ep  5725/10000 | steps= 4045250 | mean_r=  -9569.0 | success= 68.0% | loss=0.0479 | eps=0.545 | beta=0.703 | stuck=  16.0
+Ep  5750/10000 | steps= 4057475 | mean_r=  -9601.8 | success= 84.0% | loss=0.0486 | eps=0.544 | beta=0.704 | stuck=  25.0
+Ep  5775/10000 | steps= 4071059 | mean_r= -10163.3 | success= 76.0% | loss=0.0482 | eps=0.542 | beta=0.705 | stuck=  17.0
+Ep  5800/10000 | steps= 4084659 | mean_r=  -9043.6 | success= 64.0% | loss=0.0470 | eps=0.540 | beta=0.706 | stuck=  10.2
+Ep  5825/10000 | steps= 4099908 | mean_r= -13561.8 | success= 72.0% | loss=0.0475 | eps=0.539 | beta=0.707 | stuck=  31.2
+Ep  5850/10000 | steps= 4114370 | mean_r= -12174.6 | success= 72.0% | loss=0.0470 | eps=0.537 | beta=0.709 | stuck=  26.4
+Ep  5875/10000 | steps= 4126850 | mean_r=  -5113.8 | success= 80.0% | loss=0.0458 | eps=0.536 | beta=0.710 | stuck=   0.0
+Ep  5900/10000 | steps= 4139921 | mean_r=  -8047.7 | success= 76.0% | loss=0.0457 | eps=0.534 | beta=0.710 | stuck=  11.5
+Ep  5925/10000 | steps= 4153248 | mean_r=  -7043.0 | success= 72.0% | loss=0.0447 | eps=0.533 | beta=0.711 | stuck=   4.8
+Ep  5950/10000 | steps= 4167982 | mean_r= -10014.1 | success= 68.0% | loss=0.0442 | eps=0.531 | beta=0.713 | stuck=  11.2
+Ep  5975/10000 | steps= 4180607 | mean_r= -10474.0 | success= 76.0% | loss=0.0438 | eps=0.530 | beta=0.714 | stuck=  24.2
+Ep  6000/10000 | steps= 4193606 | mean_r=  -7139.6 | success= 72.0% | loss=0.0440 | eps=0.528 | beta=0.715 | stuck=   7.1
+Ep  6025/10000 | steps= 4205783 | mean_r=  -6096.7 | success= 80.0% | loss=0.0428 | eps=0.527 | beta=0.715 | stuck=   4.8
+Ep  6050/10000 | steps= 4217466 | mean_r=  -6747.0 | success= 88.0% | loss=0.0427 | eps=0.526 | beta=0.716 | stuck=  12.0
+Ep  6075/10000 | steps= 4231991 | mean_r= -11355.3 | success= 76.0% | loss=0.0431 | eps=0.524 | beta=0.717 | stuck=  24.2
+Ep  6100/10000 | steps= 4244456 | mean_r=  -7757.1 | success= 76.0% | loss=0.0427 | eps=0.522 | beta=0.718 | stuck=  10.4
+Ep  6125/10000 | steps= 4259938 | mean_r=  -9801.8 | success= 68.0% | loss=0.0421 | eps=0.521 | beta=0.719 | stuck=   9.2
+Ep  6150/10000 | steps= 4272787 | mean_r=  -7422.5 | success= 84.0% | loss=0.0420 | eps=0.519 | beta=0.720 | stuck=   8.8
+Ep  6175/10000 | steps= 4285571 | mean_r= -10652.8 | success= 72.0% | loss=0.0426 | eps=0.518 | beta=0.721 | stuck=  23.0
+Ep  6200/10000 | steps= 4299027 | mean_r=  -6504.9 | success= 84.0% | loss=0.0416 | eps=0.516 | beta=0.722 | stuck=   3.7
+Ep  6225/10000 | steps= 4312679 | mean_r=  -8120.2 | success= 68.0% | loss=0.0416 | eps=0.515 | beta=0.723 | stuck=   7.5
+  ✓ New best (ema_r=-8714.9) → weights_d3qn.pth
+Ep  6250/10000 | steps= 4326051 | mean_r=  -7900.4 | success= 76.0% | loss=0.0406 | eps=0.513 | beta=0.724 | stuck=   8.6
+  ✓ New best (ema_r=-8633.5) → weights_d3qn.pth
+Ep  6275/10000 | steps= 4335707 | mean_r=  -3082.2 | success= 84.0% | loss=0.0400 | eps=0.512 | beta=0.725 | stuck=   0.0
+  ✓ New best (ema_r=-8078.4) → weights_d3qn.pth
+Ep  6300/10000 | steps= 4347987 | mean_r=  -5585.6 | success= 76.0% | loss=0.0397 | eps=0.511 | beta=0.726 | stuck=   2.0
+  ✓ New best (ema_r=-7829.1) → weights_d3qn.pth
+Ep  6325/10000 | steps= 4360921 | mean_r=  -7688.7 | success= 76.0% | loss=0.0391 | eps=0.509 | beta=0.727 | stuck=   8.8
+  ✓ New best (ema_r=-7815.0) → weights_d3qn.pth
+Ep  6350/10000 | steps= 4374904 | mean_r= -10757.3 | success= 72.0% | loss=0.0384 | eps=0.508 | beta=0.728 | stuck=  20.6
+Ep  6375/10000 | steps= 4388000 | mean_r= -13768.3 | success= 72.0% | loss=0.0383 | eps=0.506 | beta=0.729 | stuck=  36.7
+Ep  6400/10000 | steps= 4399262 | mean_r=  -5003.1 | success= 80.0% | loss=0.0382 | eps=0.505 | beta=0.730 | stuck=   3.1
+Ep  6425/10000 | steps= 4415101 | mean_r=  -9911.8 | success= 76.0% | loss=0.0368 | eps=0.503 | beta=0.731 | stuck=  10.5
+Ep  6450/10000 | steps= 4427718 | mean_r=  -7460.4 | success= 76.0% | loss=0.0365 | eps=0.502 | beta=0.732 | stuck=  10.0
+Ep  6475/10000 | steps= 4442306 | mean_r=  -8649.7 | success= 76.0% | loss=0.0360 | eps=0.500 | beta=0.733 | stuck=   8.6
+Ep  6500/10000 | steps= 4453795 | mean_r=  -7727.4 | success= 76.0% | loss=0.0367 | eps=0.499 | beta=0.734 | stuck=  14.7
+Ep  6525/10000 | steps= 4467131 | mean_r=  -7795.7 | success= 80.0% | loss=0.0365 | eps=0.497 | beta=0.735 | stuck=  12.4
+Ep  6550/10000 | steps= 4479311 | mean_r=  -7036.0 | success= 88.0% | loss=0.0360 | eps=0.496 | beta=0.736 | stuck=  11.2
+Ep  6575/10000 | steps= 4491187 | mean_r=  -8734.7 | success= 84.0% | loss=0.0359 | eps=0.495 | beta=0.737 | stuck=  20.1
+Ep  6600/10000 | steps= 4502969 | mean_r= -10048.3 | success= 80.0% | loss=0.0352 | eps=0.493 | beta=0.738 | stuck=  26.6
+Ep  6625/10000 | steps= 4517683 | mean_r=  -8107.4 | success= 72.0% | loss=0.0347 | eps=0.492 | beta=0.739 | stuck=   6.6
+Ep  6650/10000 | steps= 4530792 | mean_r=  -8673.1 | success= 72.0% | loss=0.0348 | eps=0.490 | beta=0.740 | stuck=  13.9
+Ep  6675/10000 | steps= 4544968 | mean_r=  -7869.9 | success= 80.0% | loss=0.0344 | eps=0.489 | beta=0.741 | stuck=   5.5
+Ep  6700/10000 | steps= 4561788 | mean_r= -15665.4 | success= 68.0% | loss=0.0343 | eps=0.487 | beta=0.742 | stuck=  35.9
+Ep  6725/10000 | steps= 4575130 | mean_r=  -9281.0 | success= 80.0% | loss=0.0343 | eps=0.485 | beta=0.743 | stuck=  18.4
+Ep  6750/10000 | steps= 4590050 | mean_r=  -9407.7 | success= 76.0% | loss=0.0330 | eps=0.484 | beta=0.744 | stuck=  14.1
+Ep  6775/10000 | steps= 4602530 | mean_r=  -8628.1 | success= 80.0% | loss=0.0323 | eps=0.482 | beta=0.745 | stuck=  17.6
+Ep  6800/10000 | steps= 4615202 | mean_r=  -9308.1 | success= 76.0% | loss=0.0322 | eps=0.481 | beta=0.746 | stuck=  20.0
+Ep  6825/10000 | steps= 4628043 | mean_r=  -7018.8 | success= 80.0% | loss=0.0314 | eps=0.479 | beta=0.747 | stuck=   6.4
+Ep  6850/10000 | steps= 4642919 | mean_r=  -8535.7 | success= 72.0% | loss=0.0309 | eps=0.478 | beta=0.748 | stuck=   8.3
+Ep  6875/10000 | steps= 4657852 | mean_r= -10268.4 | success= 76.0% | loss=0.0307 | eps=0.476 | beta=0.749 | stuck=  16.1
+Ep  6900/10000 | steps= 4672408 | mean_r=  -9656.6 | success= 72.0% | loss=0.0301 | eps=0.474 | beta=0.750 | stuck=  13.8
+Ep  6925/10000 | steps= 4685472 | mean_r= -10139.2 | success= 84.0% | loss=0.0295 | eps=0.473 | beta=0.751 | stuck=  24.8
+Ep  6950/10000 | steps= 4698740 | mean_r=  -7988.3 | success= 80.0% | loss=0.0296 | eps=0.471 | beta=0.752 | stuck=  10.4
+Ep  6975/10000 | steps= 4707743 | mean_r=  -2788.7 | success= 96.0% | loss=0.0291 | eps=0.470 | beta=0.753 | stuck=   2.1
+Ep  7000/10000 | steps= 4719814 | mean_r=  -5167.1 | success= 92.0% | loss=0.0290 | eps=0.469 | beta=0.754 | stuck=   3.6
+Ep  7025/10000 | steps= 4732520 | mean_r=  -8513.3 | success= 80.0% | loss=0.0289 | eps=0.468 | beta=0.755 | stuck=  14.4
+Ep  7050/10000 | steps= 4746169 | mean_r= -14552.6 | success= 80.0% | loss=0.0298 | eps=0.466 | beta=0.756 | stuck=  41.4
+Ep  7075/10000 | steps= 4759272 | mean_r=  -7971.9 | success= 84.0% | loss=0.0296 | eps=0.465 | beta=0.757 | stuck=  13.8
+Ep  7100/10000 | steps= 4771640 | mean_r=  -6531.4 | success= 84.0% | loss=0.0291 | eps=0.463 | beta=0.758 | stuck=   6.4
+Ep  7125/10000 | steps= 4784864 | mean_r= -10387.6 | success= 72.0% | loss=0.0288 | eps=0.462 | beta=0.759 | stuck=  22.0
+Ep  7150/10000 | steps= 4797714 | mean_r=  -9743.2 | success= 76.0% | loss=0.0282 | eps=0.460 | beta=0.760 | stuck=  20.8
+Ep  7175/10000 | steps= 4809097 | mean_r=  -6191.7 | success= 88.0% | loss=0.0283 | eps=0.459 | beta=0.761 | stuck=  10.5
+Ep  7200/10000 | steps= 4825159 | mean_r= -14609.8 | success= 76.0% | loss=0.0281 | eps=0.457 | beta=0.762 | stuck=  34.4
+Ep  7225/10000 | steps= 4837828 | mean_r=  -8945.8 | success= 72.0% | loss=0.0279 | eps=0.456 | beta=0.763 | stuck=  14.8
+Ep  7250/10000 | steps= 4852412 | mean_r=  -9749.5 | success= 76.0% | loss=0.0280 | eps=0.454 | beta=0.764 | stuck=  14.6
+Ep  7275/10000 | steps= 4862944 | mean_r=  -5376.6 | success= 84.0% | loss=0.0274 | eps=0.453 | beta=0.765 | stuck=   9.6
+Ep  7300/10000 | steps= 4875192 | mean_r=  -5240.2 | success= 80.0% | loss=0.0272 | eps=0.452 | beta=0.766 | stuck=   1.2
+Ep  7325/10000 | steps= 4890542 | mean_r=  -8226.8 | success= 72.0% | loss=0.0271 | eps=0.450 | beta=0.767 | stuck=   6.1
+Ep  7350/10000 | steps= 4901511 | mean_r=  -4999.0 | success= 84.0% | loss=0.0265 | eps=0.449 | beta=0.768 | stuck=   3.4
+Ep  7375/10000 | steps= 4919271 | mean_r= -11492.8 | success= 60.0% | loss=0.0263 | eps=0.447 | beta=0.769 | stuck=  12.4
+Ep  7400/10000 | steps= 4935459 | mean_r= -13129.0 | success= 64.0% | loss=0.0263 | eps=0.445 | beta=0.770 | stuck=  24.2
+Ep  7425/10000 | steps= 4948996 | mean_r=  -9376.0 | success= 80.0% | loss=0.0270 | eps=0.443 | beta=0.771 | stuck=  17.2
+Ep  7450/10000 | steps= 4962251 | mean_r=  -9667.2 | success= 72.0% | loss=0.0270 | eps=0.442 | beta=0.772 | stuck=  17.0
+Ep  7475/10000 | steps= 4971054 | mean_r=  -2947.9 | success= 96.0% | loss=0.0263 | eps=0.441 | beta=0.773 | stuck=   2.7
+Ep  7500/10000 | steps= 4985056 | mean_r=  -8507.4 | success= 68.0% | loss=0.0257 | eps=0.439 | beta=0.774 | stuck=   7.4
+Ep  7525/10000 | steps= 4997742 | mean_r=  -8759.4 | success= 76.0% | loss=0.0266 | eps=0.438 | beta=0.775 | stuck=  15.2
+Ep  7550/10000 | steps= 5012104 | mean_r=  -9620.0 | success= 68.0% | loss=0.0259 | eps=0.436 | beta=0.776 | stuck=  12.6
+Ep  7575/10000 | steps= 5024473 | mean_r=  -7502.6 | success= 76.0% | loss=0.0261 | eps=0.435 | beta=0.777 | stuck=   9.4
+Ep  7600/10000 | steps= 5039424 | mean_r= -10282.4 | success= 72.0% | loss=0.0268 | eps=0.433 | beta=0.778 | stuck=  14.8
+Ep  7625/10000 | steps= 5053679 | mean_r= -14834.2 | success= 68.0% | loss=0.0307 | eps=0.431 | beta=0.779 | stuck=  39.0
+Ep  7650/10000 | steps= 5065868 | mean_r=  -8734.1 | success= 80.0% | loss=0.0310 | eps=0.430 | beta=0.780 | stuck=  18.1
+Ep  7675/10000 | steps= 5077260 | mean_r=  -7186.5 | success= 88.0% | loss=0.0323 | eps=0.429 | beta=0.781 | stuck=  14.8
+Ep  7700/10000 | steps= 5094330 | mean_r= -13926.8 | success= 56.0% | loss=0.0314 | eps=0.427 | beta=0.782 | stuck=  21.8
+Ep  7725/10000 | steps= 5112088 | mean_r= -20334.7 | success= 60.0% | loss=0.0334 | eps=0.425 | beta=0.783 | stuck=  52.2
+Ep  7750/10000 | steps= 5127772 | mean_r= -13502.2 | success= 64.0% | loss=0.0337 | eps=0.423 | beta=0.785 | stuck=  26.3
+Ep  7775/10000 | steps= 5140879 | mean_r=  -8977.7 | success= 84.0% | loss=0.0328 | eps=0.422 | beta=0.786 | stuck=  16.2
+Ep  7800/10000 | steps= 5153750 | mean_r= -14257.2 | success= 76.0% | loss=0.0332 | eps=0.420 | beta=0.787 | stuck=  39.7
+Ep  7825/10000 | steps= 5167465 | mean_r=  -7013.3 | success= 80.0% | loss=0.0328 | eps=0.419 | beta=0.788 | stuck=   4.6
+Ep  7850/10000 | steps= 5180295 | mean_r=  -9451.3 | success= 76.0% | loss=0.0317 | eps=0.417 | beta=0.789 | stuck=  20.0
+Ep  7875/10000 | steps= 5194210 | mean_r= -14742.0 | success= 76.0% | loss=0.0328 | eps=0.416 | beta=0.790 | stuck=  41.6
+Ep  7900/10000 | steps= 5209914 | mean_r= -13914.3 | success= 60.0% | loss=0.0322 | eps=0.414 | beta=0.791 | stuck=  28.7
+Ep  7925/10000 | steps= 5222722 | mean_r=  -6377.3 | success= 88.0% | loss=0.0318 | eps=0.412 | beta=0.792 | stuck=   4.8
+Ep  7950/10000 | steps= 5234937 | mean_r= -10678.3 | success= 80.0% | loss=0.0315 | eps=0.411 | beta=0.793 | stuck=  26.8
+Ep  7975/10000 | steps= 5248687 | mean_r=  -9718.7 | success= 68.0% | loss=0.0308 | eps=0.410 | beta=0.794 | stuck=  14.1
+Ep  8000/10000 | steps= 5261178 | mean_r=  -5069.4 | success= 88.0% | loss=0.0301 | eps=0.408 | beta=0.795 | stuck=   0.0
+Ep  8025/10000 | steps= 5274882 | mean_r=  -8253.3 | success= 84.0% | loss=0.0296 | eps=0.407 | beta=0.796 | stuck=  11.0
+Ep  8050/10000 | steps= 5285618 | mean_r=  -5592.1 | success= 84.0% | loss=0.0293 | eps=0.405 | beta=0.796 | stuck=   6.7
+Ep  8075/10000 | steps= 5298211 | mean_r=  -7143.6 | success= 68.0% | loss=0.0284 | eps=0.404 | beta=0.797 | stuck=   6.1
+Ep  8100/10000 | steps= 5312257 | mean_r= -15040.6 | success= 68.0% | loss=0.0287 | eps=0.402 | beta=0.798 | stuck=  39.0
+Ep  8125/10000 | steps= 5324824 | mean_r=  -6733.5 | success= 80.0% | loss=0.0282 | eps=0.401 | beta=0.799 | stuck=   6.1
+Ep  8150/10000 | steps= 5339460 | mean_r=  -9743.7 | success= 68.0% | loss=0.0270 | eps=0.399 | beta=0.800 | stuck=  12.0
+Ep  8175/10000 | steps= 5350712 | mean_r=  -8582.8 | success= 84.0% | loss=0.0268 | eps=0.398 | beta=0.801 | stuck=  21.2
+Ep  8200/10000 | steps= 5359606 | mean_r=  -3319.4 | success= 96.0% | loss=0.0266 | eps=0.397 | beta=0.802 | stuck=   4.6
+Ep  8225/10000 | steps= 5371099 | mean_r=  -8913.1 | success= 76.0% | loss=0.0261 | eps=0.396 | beta=0.803 | stuck=  18.2
+Ep  8250/10000 | steps= 5383970 | mean_r=  -7313.2 | success= 80.0% | loss=0.0259 | eps=0.394 | beta=0.804 | stuck=   8.8
+Ep  8275/10000 | steps= 5398282 | mean_r= -13563.5 | success= 68.0% | loss=0.0254 | eps=0.393 | beta=0.805 | stuck=  32.5
+Ep  8300/10000 | steps= 5408534 | mean_r=  -3655.4 | success= 84.0% | loss=0.0250 | eps=0.392 | beta=0.806 | stuck=   0.8
+Ep  8325/10000 | steps= 5421464 | mean_r=  -9226.5 | success= 84.0% | loss=0.0245 | eps=0.390 | beta=0.807 | stuck=  19.8
+Ep  8350/10000 | steps= 5434155 | mean_r= -10901.6 | success= 80.0% | loss=0.0246 | eps=0.389 | beta=0.808 | stuck=  25.9
+Ep  8375/10000 | steps= 5445025 | mean_r=  -6999.7 | success= 80.0% | loss=0.0242 | eps=0.387 | beta=0.808 | stuck=  13.0
+Ep  8400/10000 | steps= 5453525 | mean_r=  -5298.9 | success= 96.0% | loss=0.0241 | eps=0.386 | beta=0.809 | stuck=  17.2
+Ep  8425/10000 | steps= 5463978 | mean_r=  -6756.2 | success= 80.0% | loss=0.0239 | eps=0.385 | beta=0.810 | stuck=  12.9
+Ep  8450/10000 | steps= 5477369 | mean_r=  -7707.7 | success= 80.0% | loss=0.0236 | eps=0.384 | beta=0.811 | stuck=  10.1
+Ep  8475/10000 | steps= 5487827 | mean_r=  -5647.9 | success= 88.0% | loss=0.0233 | eps=0.383 | beta=0.812 | stuck=   8.1
+Ep  8500/10000 | steps= 5500269 | mean_r=  -5773.0 | success= 84.0% | loss=0.0232 | eps=0.381 | beta=0.813 | stuck=   4.4
+  ✓ New best (ema_r=-7694.6) → weights_d3qn.pth
+Ep  8525/10000 | steps= 5512630 | mean_r=  -8996.2 | success= 84.0% | loss=0.0235 | eps=0.380 | beta=0.813 | stuck=  20.9
+Ep  8550/10000 | steps= 5522989 | mean_r=  -8550.2 | success= 80.0% | loss=0.0237 | eps=0.379 | beta=0.814 | stuck=  22.4
+Ep  8575/10000 | steps= 5538332 | mean_r= -12702.1 | success= 64.0% | loss=0.0235 | eps=0.377 | beta=0.815 | stuck=  25.2
+Ep  8600/10000 | steps= 5549530 | mean_r= -11645.0 | success= 84.0% | loss=0.0234 | eps=0.376 | beta=0.816 | stuck=  36.7
+Ep  8625/10000 | steps= 5561938 | mean_r=  -7325.2 | success= 76.0% | loss=0.0229 | eps=0.374 | beta=0.817 | stuck=  11.1
+Ep  8650/10000 | steps= 5574737 | mean_r=  -7491.4 | success= 80.0% | loss=0.0230 | eps=0.373 | beta=0.818 | stuck=   9.3
+Ep  8675/10000 | steps= 5583366 | mean_r=  -4065.1 | success= 92.0% | loss=0.0228 | eps=0.372 | beta=0.819 | stuck=   8.2
+Ep  8700/10000 | steps= 5594242 | mean_r=  -6060.7 | success= 88.0% | loss=0.0224 | eps=0.371 | beta=0.820 | stuck=  10.6
+Ep  8725/10000 | steps= 5606878 | mean_r= -11238.5 | success= 76.0% | loss=0.0221 | eps=0.369 | beta=0.821 | stuck=  27.6
+Ep  8750/10000 | steps= 5618757 | mean_r=  -9001.9 | success= 80.0% | loss=0.0225 | eps=0.368 | beta=0.821 | stuck=  20.4
+Ep  8775/10000 | steps= 5629408 | mean_r=  -7113.5 | success= 84.0% | loss=0.0219 | eps=0.367 | beta=0.822 | stuck=  15.5
+Ep  8800/10000 | steps= 5642115 | mean_r= -11439.2 | success= 72.0% | loss=0.0219 | eps=0.365 | beta=0.823 | stuck=  27.5
+Ep  8825/10000 | steps= 5653691 | mean_r=  -4412.0 | success= 92.0% | loss=0.0205 | eps=0.364 | beta=0.824 | stuck=   0.9
+Ep  8850/10000 | steps= 5665224 | mean_r=  -7439.0 | success= 88.0% | loss=0.0204 | eps=0.363 | beta=0.825 | stuck=  15.5
+Ep  8875/10000 | steps= 5676776 | mean_r=  -6819.6 | success= 80.0% | loss=0.0197 | eps=0.361 | beta=0.826 | stuck=  10.1
+Ep  8900/10000 | steps= 5688126 | mean_r=  -7720.6 | success= 88.0% | loss=0.0197 | eps=0.360 | beta=0.827 | stuck=  18.2
+Ep  8925/10000 | steps= 5700312 | mean_r=  -9929.2 | success= 84.0% | loss=0.0190 | eps=0.359 | beta=0.828 | stuck=  23.5
+Ep  8950/10000 | steps= 5711608 | mean_r=  -5422.7 | success= 92.0% | loss=0.0183 | eps=0.357 | beta=0.828 | stuck=   6.3
+Ep  8975/10000 | steps= 5720246 | mean_r=  -4787.7 | success= 88.0% | loss=0.0172 | eps=0.356 | beta=0.829 | stuck=  10.8
+  ✓ New best (ema_r=-7504.2) → weights_d3qn.pth
+Ep  9000/10000 | steps= 5731916 | mean_r=  -6302.8 | success= 80.0% | loss=0.0170 | eps=0.355 | beta=0.830 | stuck=   7.9
+  ✓ New best (ema_r=-7384.1) → weights_d3qn.pth
+Ep  9025/10000 | steps= 5741120 | mean_r=  -5706.5 | success= 88.0% | loss=0.0169 | eps=0.354 | beta=0.831 | stuck=  14.7
+  ✓ New best (ema_r=-7216.3) → weights_d3qn.pth
+Ep  9050/10000 | steps= 5754184 | mean_r= -13443.5 | success= 88.0% | loss=0.0164 | eps=0.353 | beta=0.832 | stuck=  37.5
+Ep  9075/10000 | steps= 5767266 | mean_r= -10760.6 | success= 80.0% | loss=0.0168 | eps=0.351 | beta=0.833 | stuck=  25.3
+Ep  9100/10000 | steps= 5777586 | mean_r=  -8387.4 | success= 80.0% | loss=0.0164 | eps=0.350 | beta=0.833 | stuck=  22.4
+Ep  9125/10000 | steps= 5787807 | mean_r=  -5631.3 | success= 80.0% | loss=0.0153 | eps=0.349 | beta=0.834 | stuck=   7.6
+Ep  9150/10000 | steps= 5799899 | mean_r=  -7032.6 | success= 88.0% | loss=0.0151 | eps=0.348 | beta=0.835 | stuck=  11.9
+Ep  9175/10000 | steps= 5807864 | mean_r=  -2512.1 | success=100.0% | loss=0.0148 | eps=0.347 | beta=0.836 | stuck=   2.5
+Ep  9200/10000 | steps= 5817725 | mean_r=  -3652.2 | success= 96.0% | loss=0.0145 | eps=0.346 | beta=0.836 | stuck=   2.2
+  ✓ New best (ema_r=-6923.1) → weights_d3qn.pth
+Ep  9225/10000 | steps= 5831837 | mean_r=  -8542.1 | success= 72.0% | loss=0.0143 | eps=0.344 | beta=0.837 | stuck=   8.0
+Ep  9250/10000 | steps= 5840720 | mean_r=  -4676.3 | success= 88.0% | loss=0.0141 | eps=0.343 | beta=0.838 | stuck=   9.5
+  ✓ New best (ema_r=-6844.2) → weights_d3qn.pth
+Ep  9275/10000 | steps= 5853686 | mean_r=  -8363.5 | success= 76.0% | loss=0.0140 | eps=0.341 | beta=0.839 | stuck=  10.8
+Ep  9300/10000 | steps= 5866368 | mean_r=  -7113.3 | success= 76.0% | loss=0.0140 | eps=0.340 | beta=0.840 | stuck=   7.2
+Ep  9325/10000 | steps= 5881916 | mean_r= -15593.8 | success= 68.0% | loss=0.0141 | eps=0.338 | beta=0.841 | stuck=  38.4
+Ep  9350/10000 | steps= 5892209 | mean_r=  -4099.3 | success= 88.0% | loss=0.0141 | eps=0.337 | beta=0.842 | stuck=   1.7
+Ep  9375/10000 | steps= 5905772 | mean_r= -10049.5 | success= 76.0% | loss=0.0132 | eps=0.336 | beta=0.843 | stuck=  18.6
+Ep  9400/10000 | steps= 5917294 | mean_r=  -8144.8 | success= 76.0% | loss=0.0131 | eps=0.334 | beta=0.844 | stuck=  16.3
+Ep  9425/10000 | steps= 5928665 | mean_r=  -9195.9 | success= 84.0% | loss=0.0132 | eps=0.333 | beta=0.845 | stuck=  24.0
+Ep  9450/10000 | steps= 5940120 | mean_r=  -7372.9 | success= 80.0% | loss=0.0138 | eps=0.332 | beta=0.846 | stuck=  13.2
+Ep  9475/10000 | steps= 5951964 | mean_r=  -9165.7 | success= 72.0% | loss=0.0136 | eps=0.330 | beta=0.846 | stuck=  17.6
+Ep  9500/10000 | steps= 5964080 | mean_r=  -8615.9 | success= 84.0% | loss=0.0135 | eps=0.329 | beta=0.847 | stuck=  18.7
+Ep  9525/10000 | steps= 5977198 | mean_r= -10895.4 | success= 80.0% | loss=0.0138 | eps=0.328 | beta=0.848 | stuck=  25.5
+Ep  9550/10000 | steps= 5989241 | mean_r=  -9490.7 | success= 88.0% | loss=0.0140 | eps=0.326 | beta=0.849 | stuck=  21.7
+Ep  9575/10000 | steps= 5999577 | mean_r=  -5329.4 | success= 80.0% | loss=0.0137 | eps=0.325 | beta=0.850 | stuck=   7.1
+Ep  9600/10000 | steps= 6016717 | mean_r= -14509.1 | success= 60.0% | loss=0.0137 | eps=0.323 | beta=0.851 | stuck=  26.6
+Ep  9625/10000 | steps= 6031577 | mean_r= -15394.6 | success= 72.0% | loss=0.0145 | eps=0.321 | beta=0.852 | stuck=  41.6
+Ep  9650/10000 | steps= 6043707 | mean_r=  -9410.6 | success= 80.0% | loss=0.0141 | eps=0.320 | beta=0.853 | stuck=  21.2
+Ep  9675/10000 | steps= 6058603 | mean_r= -12334.2 | success= 68.0% | loss=0.0139 | eps=0.318 | beta=0.854 | stuck=  23.2
+Ep  9700/10000 | steps= 6071056 | mean_r=  -8378.6 | success= 80.0% | loss=0.0136 | eps=0.317 | beta=0.855 | stuck=  15.2
+Ep  9725/10000 | steps= 6080823 | mean_r=  -3607.1 | success= 88.0% | loss=0.0133 | eps=0.316 | beta=0.856 | stuck=   1.3
+Ep  9750/10000 | steps= 6092796 | mean_r=  -9641.0 | success= 84.0% | loss=0.0137 | eps=0.315 | beta=0.857 | stuck=  22.1
+Ep  9775/10000 | steps= 6106253 | mean_r= -10694.0 | success= 76.0% | loss=0.0133 | eps=0.313 | beta=0.858 | stuck=  22.3
+Ep  9800/10000 | steps= 6117102 | mean_r=  -6038.8 | success= 92.0% | loss=0.0129 | eps=0.312 | beta=0.859 | stuck=  10.2
+Ep  9825/10000 | steps= 6128293 | mean_r=  -9795.0 | success= 76.0% | loss=0.0124 | eps=0.311 | beta=0.860 | stuck=  23.9
+Ep  9850/10000 | steps= 6137937 | mean_r=  -5057.2 | success= 84.0% | loss=0.0124 | eps=0.309 | beta=0.860 | stuck=   8.7
+Ep  9875/10000 | steps= 6148130 | mean_r=  -5601.7 | success= 84.0% | loss=0.0119 | eps=0.308 | beta=0.861 | stuck=   9.1
+Ep  9900/10000 | steps= 6158248 | mean_r=  -5221.4 | success= 84.0% | loss=0.0119 | eps=0.307 | beta=0.862 | stuck=   6.7
+Ep  9925/10000 | steps= 6166703 | mean_r=  -5583.3 | success= 92.0% | loss=0.0116 | eps=0.306 | beta=0.863 | stuck=  16.0
+Ep  9950/10000 | steps= 6175919 | mean_r=  -5297.6 | success= 88.0% | loss=0.0115 | eps=0.305 | beta=0.863 | stuck=  12.2
+Ep  9975/10000 | steps= 6182582 | mean_r=  -1413.5 | success= 96.0% | loss=0.0112 | eps=0.304 | beta=0.864 | stuck=   3.0
+Ep 10000/10000 | steps= 6193756 | mean_r=  -6763.0 | success= 88.0% | loss=0.0111 | eps=0.303 | beta=0.865 | stuck=  12.8
+
+Training complete.
+  Best model  (ema_r=-6844.2) → weights_d3qn.pth
+  Final model → weights_d3qn_final.pth
